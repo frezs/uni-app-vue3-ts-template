@@ -1,0 +1,62 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+    }
+  },
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "启动页",
+        "navigationStyle": "custom",
+        "titlePenetrate": "YES",
+        "transparentTitle": "always"
+      }
+    },
+    {
+      "path": "pages/index/home",
+      "style": {
+        "navigationBarTitleText": "主页",
+        "navigationStyle": "custom",
+        "titlePenetrate": "YES",
+        "transparentTitle": "always"
+      }
+    },
+    {
+      "path": "pages/index/login",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "navigationStyle": "custom",
+        "titlePenetrate": "YES",
+        "transparentTitle": "always"
+      }
+    },
+    {
+      "path": "pages/index/me",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "navigationStyle": "custom",
+        "titlePenetrate": "YES",
+        "transparentTitle": "always"
+      }
+    }
+  ],
+  "subPackage": [],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#fff"
+  },
+  "condition": {
+    "current": 0,
+    "list": [
+      {
+        "name": "",
+        "path": "",
+        "query": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "Console": {
+    "prefix": "log",
+    "body": ["console.log(\"===================$1\", $2);"],
+    "description": "打印日志"
+  },
+  "VUE PAGE": {
+    "prefix": "vp-ts",
+    "body": [
+      "<template>",
+      "  <tm-app>",
+      "    <view class=\"relative flex-1\">",
+      "      $1",
+      "",
+      "    </view>",
+      "  </tm-app>",
+      "</template>",
+      "",
+      "<script lang='ts' setup>",
+      "import { ref } from 'vue'",
+      "import { onShow, onLoad } from '@dcloudio/uni-app'",
+      "",
+      "",
+      "",
+      "</script>",
+      "",
+      "<style lang='scss' scoped>",
+      " $2",
+      "</style>"
+    ],
+    "description": "页面-vue|setup|scss"
+  },
+  "VUE COMPONENTS": {
+    "prefix": "vc-ts",
+    "body": [
+      "<template>",
+      "  <view class=\"relative flex-1\">",
+      "    $1",
+      "",
+      "  </view>",
+      "</template>",
+      "",
+      "<script lang='ts' setup>",
+      "import { ref } from 'vue'",
+      "import { onShow, onLoad } from '@dcloudio/uni-app'",
+      "",
+      "",
+      "",
+      "</script>",
+      "",
+      "<style lang='scss' scoped>",
+      "    $2",
+      "</style>"
+    ],
+    "description": "组件-vue|setup|scss"
+  },
+  "VUE Setp DefineProps": {
+    "prefix": "def",
+    "body": [
+      "defineProps({",
+      "  ${1:info}: {",
+      "    type: ${2:String},",
+      "    default: ${3:''}",
+      "  },",
+      "})"
+    ],
+    "description": "组件-vue|setup|scss"
+  },
+  "Script": {
+    "prefix": "vs-ts",
+    "body": [
+      "",
+      "<script lang='ts' setup>",
+      "import { ref } from 'vue'",
+      "import { onShow, onLoad } from '@dcloudio/uni-app'",
+      "",
+      "$1",
+      "",
+      "</script>"
+    ],
+    "description": "脚本-vue|scoped|scss"
+  },
+  "Script css scoped": {
+    "prefix": "st-css-scoped",
+    "body": ["", "<style>", "  $1", "</style>"],
+    "description": "样式-vue|css|scoped"
+  },
+  "Script css": {
+    "prefix": "st-css",
+    "body": ["", "<style>", "  $1", "</style>"],
+    "description": "样式-vue|css"
+  },
+  "Script scss": {
+    "prefix": "st-scss",
+    "body": ["", "<style lang='scss'>", "  $1", "</style>"],
+    "description": "样式-vue|scss"
+  },
+  "Script scss scoped": {
+    "prefix": "st-scss-scoped",
+    "body": ["", "<style lang='scss' scoped>", "  $1", "</style>"],
+    "description": "样式-vue|scoped|scss"
+  },
+  "Script tm-sheet": {
+    "prefix": "tm-sheet",
+    "body": [
+      "<tm-sheet :margin=\"[0]\" :padding=\"[0]\" class=\"flex-1 g_z-0\" transprent>",
+      "  $1",
+      "</tm-sheet>"
+    ],
+    "description": "样式-vue|scoped|scss"
+  }
+}
